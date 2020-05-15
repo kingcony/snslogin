@@ -1,0 +1,9 @@
+version: '2'
+
+options:
+  compose-dev-file-path: 'docker-compose.yml'
+
+syncs:
+  tec_snslogin_svr_syncs:
+    src: './svr'
+    sync_strategy: 'unison'
